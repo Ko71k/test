@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <h1>{count}</h1>
-      <button onClick={increment}></button>
-      <button onClick={decrement}></button>
+      <button onClick={increment}>increment</button>
+      <button onClick={decrement}>decrement</button>
     </div>
   );
 }
