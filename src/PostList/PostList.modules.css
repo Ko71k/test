@@ -1,0 +1,38 @@
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.search-input,
+.sort-select {
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 80%;
+}
+
+.sort-select {
+    max-width: 35%;
+}
+
+.grid__row {
+    font-weight: bold;
+}
+
+.grid__row__center {
+    text-align: center;
+    font-weight: bold;
+}
+
